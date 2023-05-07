@@ -1,0 +1,1 @@
+# Smart-Crop-Selection-Utilizing-Soil-Characteristics-and-Weather-Conditions-for-Recommendations

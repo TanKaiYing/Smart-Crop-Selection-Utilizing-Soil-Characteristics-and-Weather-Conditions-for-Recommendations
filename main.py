@@ -5,8 +5,11 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-
-
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+import matplotlib.pyplot as plt
 
 header = st.container()
 dataset = st.container()
